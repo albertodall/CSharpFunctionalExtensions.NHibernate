@@ -1,0 +1,2 @@
+# CSharpFunctionalExtensions.NHibernate
+Adds NHibernate transactions support to CSharpFunctionalExtensions library
