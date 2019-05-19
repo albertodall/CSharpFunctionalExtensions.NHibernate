@@ -3,6 +3,13 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <RootNamespace>CSharpFunctionalExtensions</RootNamespace>
+    <Authors>Alberto Dallagiacoma</Authors>
+    <Company />
+    <Description>Adds NHibernate transactions support to CSharpFunctionalExtensions library by Vladimir Khorikov.</Description>
+    <PackageProjectUrl>https://github.com/albertodall/CSharpFunctionalExtensions.NHibernate</PackageProjectUrl>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <RepositoryUrl>https://github.com/albertodall/CSharpFunctionalExtensions.NHibernate</RepositoryUrl>
+    <PackageTags>nhibernate; c#; csharp; functional</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>
