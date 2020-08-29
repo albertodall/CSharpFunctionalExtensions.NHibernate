@@ -146,7 +146,7 @@ namespace CSharpFunctionalExtensions
             }
         }
 
-        private async static Task<T> WithNHibernateTransaction<T>(ISession session, Func<Task<T>> f)
+        private async static Task<T> WithNHibernateTransactionAsync<T>(ISession session, Func<Task<T>> f)
             where T : IResult
         {
             using (var tx = session.BeginTransaction())
